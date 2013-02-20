@@ -160,9 +160,9 @@ function init() {
             'It\'s worth it!</p>');
         return;
     }
-    $('head').append('<link rel="stylesheet" type="text/css" href="style.css">');
+    $('head').append('<link rel="stylesheet" type="text/css" href="../css/style.css">');
     $.ajax({
-        url: 'playground.html',
+        url: '../playground.html',
         success: function(html) {
             el.html(html);
             bind(el);
