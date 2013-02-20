@@ -1,0 +1,26 @@
+.btn-plp {
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #FF9826;
+    *background-color: #C9781C;
+    background-image: -moz-linear-gradient(top, #FF9826, #C9781C);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#FF9826), to(#C9781C));
+    background-image: -webkit-linear-gradient(top, #FF9826, #C9781C);
+    background-image: -o-linear-gradient(top, #FF9826, #C9781C);
+    background-image: linear-gradient(to bottom, #FF9826, #C9781C);
+    background-repeat: repeat-x;
+    border-color: #C9781C #C9781C #C9781C;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff#FF9826', endColorstr='#ff#C9781C', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-success:hover,
+.btn-success:active,
+.btn-success.active,
+.btn-success.disabled,
+.btn-success[disabled] {
+    color: #C9781C;
+    background-color: #C9781C;
+    *background-color: #C9781C;
+}
